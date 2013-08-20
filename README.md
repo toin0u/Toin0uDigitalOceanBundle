@@ -1,6 +1,9 @@
 Toin0uDigitalOceanBundle
 ========================
 
+[![Build
+Status](https://secure.travis-ci.org/toin0u/Toin0uDigitalOceanBundle.png)](http://travis-ci.org/toin0u/Toin0uDigitalOceanBundle)
+
 Integration of the [**DigitalOcean**](https://github.com/toin0u/DigitalOcean) library into Symfony2.
 
 

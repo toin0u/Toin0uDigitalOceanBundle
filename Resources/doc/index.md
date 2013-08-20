@@ -1,7 +1,7 @@
 Toin0uDigitalOceanBundle
 ========================
 
-Integration of the [**DigitalOcean**](https://github.com/toin0u/DigitalOcean) library into Symfony2.
+Integration of the [**DigitalOcean**](https://github.com/toin0u/DigitalOcean) library into Symfony2 version 2.1.*.
 
 
 Installation

@@ -1,0 +1,40 @@
+{
+    "name"        : "toin0u/digitalocean-bundle",
+    "type"        : "symfony-bundle",
+    "description" : "Integration of DigitalOcean into Symfony2",
+    "keywords"    : ["Symfony2", "DigitalOcean", "API", "Cloud Hosting", "SSD", "VPS"],
+    "license"     : "MIT",
+
+    "authors" : [
+        {
+            "name"     : "Antoine Corcy",
+            "email"    : "contact@sbin.dk",
+            "homepage" : "http://sbin.dk",
+            "role"     : "Developer"
+        }
+    ],
+
+    "support" : {
+        "issues" : "https://github.com/toin0u/DigitalOcean-bundle/issues",
+        "source" : "https://github.com/toin0u/DigitalOcean-bundle"
+    },
+
+    "require" : {
+        "symfony/framework-bundle" : "~2.0",
+        "toin0u/digitalocean"      : "~1.3"
+    },
+
+    "autoload" : {
+        "psr-0" : {
+            "Toin0u\\DigitalOceanBundle": ""
+        }
+    },
+
+    "target-dir" : "Toin0u/DigitalOceanBundle",
+
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "0.1-dev"
+        }
+    }
+}

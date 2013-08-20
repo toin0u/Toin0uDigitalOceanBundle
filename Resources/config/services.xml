@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <parameters>
+        <parameter key="toin0u_digital_ocean.credentials.class">DigitalOcean\Credentials</parameter>
+        <parameter key="toin0u_digital_ocean.digitalocean.class">DigitalOcean\DigitalOcean</parameter>
+        <parameter key="toin0u_digital_ocean.adapter.class">HttpAdapter\CurlHttpAdapter</parameter>
+    </parameters>
+
+    <services>
+        <service id="credentials" alias="toin0u_digital_ocean.credentials" public="false" />
+        <service id="toin0u_digital_ocean.credentials" class="%toin0u_digital_ocean.credentials.class%">
+            <argument>%toin0u_digital_ocean.credentials.client_id%</argument>
+            <argument>%toin0u_digital_ocean.credentials.api_key%</argument>
+        </service>
+
+        <service id="toin0u_digital_ocean.digitalocean.adapter" class="%toin0u_digital_ocean.adapter.class%" public="false" />
+
+        <service id="digitalocean" alias="toin0u_digital_ocean.digitalocean" />
+        <service id="toin0u_digital_ocean.digitalocean" class="%toin0u_digital_ocean.digitalocean.class%">
+            <argument type="service" id="credentials" />
+            <argument type="service" id="toin0u_digital_ocean.digitalocean.adapter" />
+        </service>
+    </services>
+</container>

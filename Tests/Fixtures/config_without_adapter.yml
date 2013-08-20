@@ -1,0 +1,6 @@
+toin0u_digital_ocean:
+    adapter:
+        class:     ~
+    credentials:
+        client_id: CLIENT_ID
+        api_key:   API_KEY

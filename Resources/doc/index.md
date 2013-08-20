@@ -13,7 +13,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "toin0u/digitalocean-bundle": "~0.1@dev"
+        "toin0u/digitalocean-bundle": "~0.1"
     }
 }
 ```

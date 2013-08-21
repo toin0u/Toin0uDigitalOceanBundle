@@ -15,8 +15,8 @@
     ],
 
     "support" : {
-        "issues" : "https://github.com/toin0u/DigitalOcean-bundle/issues",
-        "source" : "https://github.com/toin0u/DigitalOcean-bundle"
+        "issues" : "https://github.com/toin0u/Toin0uDigitalOceanBundle/issues",
+        "source" : "https://github.com/toin0u/Toin0uDigitalOceanBundle"
     },
 
     "require" : {

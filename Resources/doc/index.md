@@ -20,14 +20,16 @@ to your `composer.json` file:
 
 Register the bundle in `app/AppKernel.php`:
 
-    // app/AppKernel.php
-    public function registerBundles()
-    {
-        return array(
-            // ...
-            new Toin0u\DigitalOceanBundle\Toin0uDigitalOceanBundle(),
-        );
-    }
+```php
+// app/AppKernel.php
+public function registerBundles()
+{
+    return array(
+        // ...
+        new Toin0u\DigitalOceanBundle\Toin0uDigitalOceanBundle(),
+    );
+}
+```
 
 Enable the bundle's configuration in `app/config/config.yml`:
 

@@ -3,6 +3,7 @@ Toin0uDigitalOceanBundle
 
 [![Build
 Status](https://secure.travis-ci.org/toin0u/Toin0uDigitalOceanBundle.png)](http://travis-ci.org/toin0u/Toin0uDigitalOceanBundle)
+[![Coverage Status](https://coveralls.io/repos/toin0u/Toin0uDigitalOceanBundle/badge.png)](https://coveralls.io/r/toin0u/Toin0uDigitalOceanBundle)
 [![Latest Stable Version](https://poser.pugx.org/toin0u/digitalocean-bundle/v/stable.png)](https://packagist.org/packages/toin0u/digitalocean-bundle)
 [![Total Downloads](https://poser.pugx.org/toin0u/digitalocean-bundle/downloads.png)](https://packagist.org/packages/toin0u/digitalocean-bundle)
 

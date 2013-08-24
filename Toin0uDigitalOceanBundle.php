@@ -13,6 +13,9 @@ namespace Toin0u\DigitalOceanBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
+/**
+ * @author Antoine Corcy <contact@sbin.dk>
+ */
 class Toin0uDigitalOceanBundle extends Bundle
 {
 }

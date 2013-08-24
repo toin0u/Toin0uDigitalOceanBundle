@@ -22,7 +22,7 @@
             <directory>.</directory>
             <exclude>
                 <directory>./Resources</directory>
-                <directory>./Tests</directory>
+                <directory>./Tests/Fixtures</directory>
                 <directory>./vendor</directory>
             </exclude>
         </whitelist>

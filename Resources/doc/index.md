@@ -13,10 +13,13 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "toin0u/digitalocean-bundle": "~0.1"
+        "toin0u/digitalocean-bundle": "@stable"
     }
 }
 ```
+**Protip:** you should browse the
+[`toin0u/digitalocean-bundle`](https://packagist.org/packages/toin0u/digitalocean-bundle)
+page to choose a stable version to use, avoid the `@stable` meta constraint.
 
 Register the bundle in `app/AppKernel.php`:
 

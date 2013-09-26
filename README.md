@@ -7,7 +7,7 @@ Status](https://secure.travis-ci.org/toin0u/Toin0uDigitalOceanBundle.png)](http:
 [![Latest Stable Version](https://poser.pugx.org/toin0u/digitalocean-bundle/v/stable.png)](https://packagist.org/packages/toin0u/digitalocean-bundle)
 [![Total Downloads](https://poser.pugx.org/toin0u/digitalocean-bundle/downloads.png)](https://packagist.org/packages/toin0u/digitalocean-bundle)
 
-Integration of the [**DigitalOcean**](https://github.com/toin0u/DigitalOcean) library into Symfony2 version 2.1.*.
+Integration of the [**DigitalOcean**](https://github.com/toin0u/DigitalOcean) library into Symfony2 version `2.1.*`, `2.2.*`and `2.3.*`.
 
 
 Documentation

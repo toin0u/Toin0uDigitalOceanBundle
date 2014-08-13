@@ -20,7 +20,7 @@
     },
 
     "require" : {
-        "symfony/framework-bundle" : "~2.0",
+        "symfony/framework-bundle" : "~2.5",
         "toin0u/digitalocean"      : "~1.4"
     },
 
